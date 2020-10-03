@@ -1,4 +1,43 @@
+.profile{
+    position: relative;
+    top: -120px;
+}
+.divOfProfile{
+    text-align: center;
+    margin-top: 130px;
+}
+.bioDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nameData{
+    display: block;
+}
+.contactData{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.contacts{
+    margin: 5px 10px;
+    font-size: 19px
+}
 
+.descriptionData{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.descData{
+    line-height: 22px;
+    margin:0px;
+    width: 600px;
+
+}
 .circleDiv{
     border:15px solid;
     border-color:red red blue blue;
@@ -19,7 +58,18 @@
 img {
     border-radius: 5px 5px 0 0;
 }
-
+.round{
+    width: 200px;
+    height: 200px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    left: 55%;
+    top: 50%;
+    margin-top: -170px;
+    margin-left:-170px;
+    position: absolute; 
+}
 .container {
     padding: 2px 16px;
 }
@@ -30,4 +80,41 @@ img {
 .completedDiv{
 
     border-radius: 5px;
+}
+.technologies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px
+}
+.icon {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin: 0px 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.techTags{
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    color: #2b2929;
+}
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.circleOfHours{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }
