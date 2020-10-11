@@ -4,8 +4,19 @@
 }
 .divOfProfile{
     text-align: center;
+    margin: 0%  20%;
     margin-top: 130px;
+    height: 500px;
+    border:1px solid black;
+    box-shadow: 5px 5px 5px 5px #9e9e9e;
 }
+@media only screen and (max-width: 600px) {
+    .divOfProfile{
+        margin: auto ;
+        height: 700px;
+    }
+  }
+
 .bioDiv{
     display: flex;
     flex-direction: column;
@@ -19,24 +30,27 @@
     justify-content: center;
     margin-top: 25px;
     flex-wrap: wrap;
+    margin: 0px 23%;
 }
 .contacts{
     margin: 5px 10px;
     font-size: 19px
+}
+.contactMail {
+    margin: 3px 10px;
 }
 
 .descriptionData{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 5px;
     margin-bottom: 40px;
+
 }
 .descData{
     line-height: 22px;
-    margin:0px;
     width: 600px;
-
 }
 .circleDiv{
     border:15px solid;
@@ -44,6 +58,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    position: relative;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -85,7 +100,12 @@ img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 50px
+    /* margin-bottom: 50px */
+    
+}
+.techStack{
+    margin:auto;
+    /* border: 1px solid red; */
 }
 .icon {
     width: 150px;
@@ -112,9 +132,19 @@ img {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     border-radius: 20px;
     flex-wrap: wrap;
     margin-top: 50px;
+}
+.numberOfHours{
+    position: absolute;
+    top:30px;
+    left:5px;
+}
+.numberCommitHours {
+    position: absolute;
+    top:30px;
+    left:45px;
 }
