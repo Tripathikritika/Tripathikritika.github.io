@@ -1,150 +1,157 @@
-.profile{
-    position: relative;
-    top: -120px;
+/* body {
+  background-image: url('/Photos/blob.svg') !important;
+} */
+.profile {
+  position: relative;
+  top: -120px;
 }
-.divOfProfile{
-    text-align: center;
-    margin: 0%  20%;
-    margin-top: 130px;
-    height: 500px;
-    border:1px solid black;
-    box-shadow: 5px 5px 5px 5px #9e9e9e;
+.divOfProfile {
+  text-align: center;
+  margin: 0% 20%;
+  margin-top: 130px;
+  height: 500px;
+  border: 1px solid black;
+  /* box-shadow: 5px 5px 5px 5px #9e9e9e; */
+  border-radius: 0px 30px 0px 30px;
+  background: #b0bec5;
+  box-shadow: inset 7px 7px 25px #a1887f, inset -7px -7px 25px #a1887f;
 }
 @media only screen and (max-width: 600px) {
-    .divOfProfile{
-        margin: auto ;
-        height: 700px;
-    }
+  .divOfProfile {
+    margin: auto;
+    height: 700px;
   }
+}
 
-.bioDiv{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.bioDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.nameData{
-    display: block;
+.nameData {
+  display: block;
 }
-.contactData{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    flex-wrap: wrap;
-    margin: 0px 23%;
+.contactData {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  margin: 0px 23%;
 }
-.contacts{
-    margin: 5px 10px;
-    font-size: 19px
+.contacts {
+  margin: 5px 10px;
+  font-size: 19px;
 }
 .contactMail {
-    margin: 3px 10px;
+  margin: 3px 10px;
 }
 
-.descriptionData{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 40px;
-
+.descriptionData {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 40px;
 }
-.descData{
-    line-height: 22px;
-    width: 600px;
+.descData {
+  line-height: 22px;
+  width: 600px;
 }
-.circleDiv{
-    border:15px solid;
-    border-color:red red blue blue;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    position: relative;
+.circleDiv {
+  border: 15px solid;
+  border-color: #795548 #795548 #4db6ac #4db6ac;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
 }
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 15px;
+.cardIcon {
+  display: flex;
+  justify-content: space-around;
+}
+/* .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 15px;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+} */
 
 img {
-    border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
 }
-.round{
-    width: 200px;
-    height: 200px;
-    border: 5px solid gray;
-    border-radius: 50%;
-    /* overflow: hidden; */
-    left: 55%;
-    top: 50%;
-    margin-top: -170px;
-    margin-left:-170px;
-    position: absolute; 
+.round {
+  width: 200px;
+  height: 200px;
+  border: 5px solid gray;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  left: 55%;
+  top: 50%;
+  margin-top: -170px;
+  margin-left: -170px;
+  position: absolute;
 }
 .container {
-    padding: 2px 16px;
+  padding: 2px 16px;
 }
-.horizontalLine{
-    width: 35%;
-    font: bold;
+.horizontalLine {
+  width: 35%;
+  font: bold;
 }
-.completedDiv{
-
-    border-radius: 5px;
+.completedDiv {
+  border-radius: 5px;
 }
-.technologies{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    /* margin-bottom: 50px */
-    
+.technologies {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-bottom: 50px */
 }
-.techStack{
-    margin:auto;
-    /* border: 1px solid red; */
+.techStack {
+  margin: auto;
+  /* border: 1px solid red; */
 }
 .icon {
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-    margin: 0px 20px;
-    margin-top: 20px;
-    text-align: center;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  margin: 0px 20px;
+  margin-top: 20px;
+  text-align: center;
 }
-.techTags{
-    text-align: center;
-    font-weight: normal;
-    font-size: 15px;
-    color: #2b2929;
+.techTags {
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+  color: #2b2929;
 }
-.stats{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }
-.circleOfHours{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-    border-radius: 20px;
-    flex-wrap: wrap;
-    margin-top: 50px;
+.circleOfHours {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
-.numberOfHours{
-    position: absolute;
-    top:30px;
-    left:5px;
+.numberOfHours {
+  position: absolute;
+  top: 30px;
+  left: 5px;
 }
 .numberCommitHours {
-    position: absolute;
-    top:30px;
-    left:45px;
+  position: absolute;
+  top: 30px;
+  left: 45px;
 }
