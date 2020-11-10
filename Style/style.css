@@ -13,7 +13,7 @@
   border: 1px solid black;
   /* box-shadow: 5px 5px 5px 5px #9e9e9e; */
   border-radius: 0px 30px 0px 30px;
-  background: #b0bec5;
+  /* background: #b0bec5; */
   box-shadow: inset 7px 7px 25px #a1887f, inset -7px -7px 25px #a1887f;
 }
 @media only screen and (max-width: 600px) {
@@ -59,7 +59,7 @@
 }
 .circleDiv {
   border: 15px solid;
-  border-color: #795548 #795548 #4db6ac #4db6ac;
+  border-color: #795548 #795548 #795548 #795548;
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -69,16 +69,19 @@
   display: flex;
   justify-content: space-around;
 }
-/* .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+.card {
+  border-radius: 30px;
+  background: linear-gradient(145deg, #ffffff, #dbdada);
+  box-shadow: 5px 5px 10px #616161, -5px -5px 10px #ffffff;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+.card-img {
+  padding: 10px;
   border-radius: 15px;
 }
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-} */
-
 img {
   border-radius: 5px 5px 0 0;
 }
