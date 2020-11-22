@@ -15,7 +15,7 @@
 }
 @media only screen and (max-width: 600px) {
   .divOfProfile {
-    margin: auto;
+    margin: 120px auto;
     height: 700px;
   }
 }
