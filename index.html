@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
     <title>Kritika </title>
     <link rel="stylesheet" href="Style/style.css">
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script> 
@@ -57,7 +58,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div>
-                            <p class="text-center h1 font-italic font-weight-normal">TECH STACKS</p>
+                            <p class="text-center h1 font-weight-normal">TECH STACKS</p>
                         </div>
                     </div>
                 </div>
@@ -103,7 +104,7 @@
                         <h5 class="techTags">EXPRESS JS</h5>
                     </div>
                     <div>
-                        <img src="https://cdn.svgporn.com/logos/mongodb.svg" alt="MongoDB" class="icon img-fluid" width="235px">
+                        <img src="https://img.icons8.com/color/96/000000/mongodb.png" alt="MongoDB" class="icon img-fluid" width="235px">
                         <h5 class="techTags">MONGO DB</h5>
                     </div>
                 </div>
@@ -111,17 +112,15 @@
             </div>
             <!-- Proficiency -->
             <div >
-                <div>
+                <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div>
-                                <p class="text-center h1 font-italic font-weight-normal">PROFICIENCIES</p>
-                            </div>
+                            <p class="text-center h1 font-weight-normal">PROFICIENCIES</p>
                         </div>
                     </div>
                     <br>
                     <div class="row text-center">
-                        <div class="col-12 col-12 col-md-3 col-lg-3">
+                        <div class="col-12 col-12 col-md-3 col-lg-3 profiDiv" >
                             <div>
                                 <img src="Photos/FrontEnd.png" alt="Front End" > 
                             </div>
@@ -132,7 +131,7 @@
                                 <p>Builds the visible parts of websites that You see and interact with</p>
                             </div>
                         </div>
-                        <div class="col-12 col-12 col-md-3 col-lg-3">
+                        <div class="col-12 col-12 col-md-3 col-lg-3 profiDiv" >
                             <div>
                                 <img src="Photos/DataStructure.png" alt="Data Structure">
                             </div>
@@ -143,7 +142,7 @@
                                 <p>Putting the right blocks in the right place is my thing</p>
                             </div>
                         </div>
-                        <div class="col-12 col-12 col-md-3 col-lg-3">
+                        <div class="col-12 col-12 col-md-3 col-lg-3 profiDiv">
                             <div>
                                 <img src="Photos/ReactApp.png" alt="Data Structure">
                             </div>
@@ -154,7 +153,7 @@
                                 <p>I am the one through which you interact with the website or application</p>
                             </div>
                         </div>
-                        <div class="col-12 col-12 col-md-3 col-lg-3">
+                        <div class="col-12 col-12 col-md-3 col-lg-3 profiDiv">
                             <div>
                                 <img src="Photos/Backend.png" alt="Data Structure">
                             </div>
@@ -170,230 +169,383 @@
             </div>
             <hr>
             <!-- Project -->
-            <div >
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div>
-                            <p class="text-center h1 font-italic font-weight-normal">PROJECTS</p>
+                        <p class="text-center h1 font-weight-normal">PROJECTS</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="wrapper">
+                                    <div class="card">
+                                        <input type="checkbox" id="card1" class="more">
+                                        <div class="content">
+                                            <div class="front" style="background-image: url('./Photos/FinalProject.png')">
+                                                <div class="inner">
+                                                    <h3>Refresh Menu</h3>
+                                                    <div class="rating">
+                                                        
+                                                    </div>
+                                                    <label for="card1" class="button" aria-hidden="true">
+                                                        Details
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="inner">
+                                                    <div class="container m-0 p-0">
+                                                        <div class="row">
+                                                            <div class="col-12 my-4 text-center">
+                                                                <div class="description">
+                                                                    <p class="text-center">It is a end-to-end clone of Freshmenu Website. Integrated payment gateway, Oauth, Mapbox, OTP.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 mt-2 text-center d-flex justify-content-around">
+                                                                <a class="btn btn-outline-info" href="https://github.com/Tripathikritika/Refresh-Menu" target="_blank" ><i class="fab fa-github"></i>Git Hub</i></a>
+                                                                <a class="btn btn-outline-info" href="#" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i>Live Demo</i></a>
+                                                            </div>
+                                                            <div class="col-12 mt-3 text-center">
+                                                                <div style=" width:100%" class="d-flex m-0 justify-content-around">
+                                                                    <h3><i class="fab fa-html5 text-danger border border-dark p-2 rounded-pill"></i></h3>
+                                                                    <h3><i class="fab fa-css3-alt border border-dark p-2 rounded-pill text-primary"></i></h3>
+                                                                    <h3><i class="fab fa-js border border-dark p-2 rounded-pill text-warning"></i></h3>
+                                                                    <h3><i class="fab fa-react border border-dark p-2 rounded-pill text-info"></i></h3>
+                                                                    <h3><i class="fab fa-node-js border border-dark p-2 rounded-pill text-success"></i></h3>
+                                                                    <h3><img class="border border-dark p-2 rounded-pill text-success" src="https://img.icons8.com/color/28/000000/mongodb.png"/></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 mb-0 text-right ">
+                                                                <label for="card1" class="btn px-4 btn-outline-info return" aria-hidden="true">
+                                                                    <i class="fas fa-arrow-left"></i>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="wrapper">
+                                    <div class="card">
+                                        <input type="checkbox" id="card2" class="more">
+                                        <div class="content">
+                                            <div class="front" style="background-image: url('./Photos/Vogue.png')">
+                                                <div class="inner">
+                                                    <h3 class="text-center">Vogue Website</h3>
+                                                    <div class="rating">
+                                                        
+                                                    </div>
+                                                    <label for="card2" class="button" aria-hidden="true">
+                                                        Details
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="inner">
+                                                    <div class="container m-0 p-0">
+                                                        <div class="row">
+                                                            <div class="col-12 my-4 text-center">
+                                                                <div class="description">
+                                                                    <p class="text-center">A vogue fashion website for beauty products using Private Routing. It lets user add item into cart only when you are logged in.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 mt-2 text-center d-flex justify-content-around">
+                                                                <a class="btn btn-outline-info" href="https://github.com/Tripathikritika/Vogue" target="_blank" ><i class="fab fa-github"></i>Git Hub</i></a>
+                                                                <a class="btn btn-outline-info" href="https://vogue.tripathikritika.vercel.app/" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i>Live Demo</i></a>
+                                                            </div>
+                                                            <div class="col-12 mt-3 text-center">
+                                                                <div style=" width:100%" class="d-flex m-0 justify-content-around">
+                                                                    <h3><i class="fab fa-html5 text-danger border border-dark p-2 rounded-pill"></i></h3>
+                                                                    <h3><i class="fab fa-css3-alt border border-dark p-2 rounded-pill text-primary"></i></h3>
+                                                                    <h3><i class="fab fa-js border border-dark p-2 rounded-pill text-warning"></i></h3>
+                                                                    <h3><i class="fab fa-react border border-dark p-2 rounded-pill text-info"></i></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 mb-0 text-right ">
+                                                                <label for="card2" class="btn px-4 btn-outline-info return" aria-hidden="true">
+                                                                    <i class="fas fa-arrow-left"></i>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="wrapper">
+                                    <div class="card">
+                                        <input type="checkbox" id="card3" class="more">
+                                        <div class="content">
+                                            <div class="front" style="background-image: url('./Photos/hackathon.jpg')">
+                                                <div class="inner">
+                                                    <h3 class="text-center">The Decipher- <small class="h6">Hackathon</small></h3>
+                                                    <div class="rating">
+                                                        
+                                                    </div>
+                                                    <label for="card3" class="button" aria-hidden="true">
+                                                        Details
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="inner">
+                                                    <div class="container m-0 p-0">
+                                                        <div class="row">
+                                                            <div class="col-12 my-3 text-center">
+                                                                <div class="description">
+                                                                    <p class="text-center"> This App generates quotation documents of various events using RevvSales API & mail's the quotation to the inbox.
+                                                                        This was a collaborative Hackathon Project made in 48 hours Using RevvSales API.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 mt-1 text-center d-flex justify-content-around">
+                                                                <a class="btn btn-outline-info" href="https://github.com/masaianshubham/Hackathon/tree/master" target="_blank" ><i class="fab fa-github"></i>Git Hub</i></a>
+                                                                <a class="btn btn-outline-info" href="https://masaianshubham.github.io/Hackathon/html/home.html" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i>Live Demo</i></a>
+                                                            </div>
+                                                            <div class="col-12 mt-3 text-center">
+                                                                <div style=" width:100%" class="d-flex m-0 justify-content-around">
+                                                                    <h3><i class="fab fa-html5 text-danger border border-dark p-2 rounded-pill"></i></h3>
+                                                                    <h3><i class="fab fa-css3-alt border border-dark p-2 rounded-pill text-primary"></i></h3>
+                                                                    <h3><i class="fab fa-js border border-dark p-2 rounded-pill text-warning"></i></h3>
+                                                                    <h3><i class="fab fa-bootstrap border border-dark p-2 rounded-pill text-primary"></i></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 mb-0 text-right ">
+                                                                <label for="card3" class="btn px-4 btn-outline-info return" aria-hidden="true">
+                                                                    <i class="fas fa-arrow-left"></i>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="wrapper">
+                                    <div class="card">
+                                        <input type="checkbox" id="card4" class="more">
+                                        <div class="content">
+                                            <div class="front" style="background-image: url('./Photos/project-5.jpg')">
+                                                <div class="inner">
+                                                    <h3 class="text-center">Ricky And Morty</h3>
+                                                    <div class="rating">
+                                                        
+                                                    </div>
+                                                    <label for="card4" class="button" aria-hidden="true">
+                                                        Details
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="inner">
+                                                    <div class="container m-0 p-0">
+                                                        <div class="row">
+                                                            <div class="col-12 mt-3 mb-1 text-center">
+                                                                <div class="description">
+                                                                    <p class="text-center"> This Project is show case about an animated series on adult-swim about the infinite adventures of Rick and Morty which lets you
+                                                                        search various characters and episodes of about the show using the lord of the ring Api .</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 text-center d-flex justify-content-around">
+                                                                <a class="btn btn-outline-info" href="https://github.com/Tripathikritika/masai-sprint-5" target="_blank" ><i class="fab fa-github"></i>Git Hub</i></a>
+                                                                <a class="btn btn-outline-info" href="https://tripathikritika.github.io/masai-sprint-5/" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i>Live Demo</i></a>
+                                                            </div>
+                                                            <div class="col-12 mt-3 text-center">
+                                                                <div style=" width:100%" class="d-flex m-0 justify-content-around">
+                                                                    <h3><i class="fab fa-html5 text-danger border border-dark p-2 rounded-pill"></i></h3>
+                                                                    <h3><i class="fab fa-css3-alt border border-dark p-2 rounded-pill text-primary"></i></h3>
+                                                                    <h3><i class="fab fa-js border border-dark p-2 rounded-pill text-warning"></i></h3>
+                                                                    <h3><i class="fab fa-bootstrap border border-dark p-2 rounded-pill text-primary"></i></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 mb-0 text-right ">
+                                                                <label for="card4" class="btn px-4 btn-outline-info return" aria-hidden="true">
+                                                                    <i class="fas fa-arrow-left"></i>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="wrapper">
+                                    <div class="card">
+                                        <input type="checkbox" id="card5" class="more">
+                                        <div class="content">
+                                            <div class="front" style="background-image: url('./Photos/project-3.jpg')">
+                                                <div class="inner">
+                                                    <h3 class="text-center">The Lord of the ring</h3>
+                                                    <div class="rating">
+                                                        
+                                                    </div>
+                                                    <label for="card5" class="button" aria-hidden="true">
+                                                        Details
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="inner">
+                                                    <div class="container m-0 p-0">
+                                                        <div class="row">
+                                                            <div class="col-12 mt-3 mb-1 text-center">
+                                                                <div class="description">
+                                                                    <p class="text-center">  Designed and Implemented a JS API Project where the API was Lord of the Rings API​. 
+                                                                        The LOTR Api gives all the in depth information about the Lord of the Rings series.</p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 text-center d-flex justify-content-around">
+                                                                <a class="btn btn-outline-info" href="https://github.com/Tripathikritika/masai-sprint-3"  target="_blank" ><i class="fab fa-github"></i>Git Hub</i></a>
+                                                                <a class="btn btn-outline-info" href="https://tripathikritika.github.io/masai-sprint-3" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i>Live Demo</i></a>
+                                                            </div>
+                                                            <div class="col-12 mt-3 text-center">
+                                                                <div style=" width:100%" class="d-flex m-0 justify-content-around">
+                                                                    <h3><i class="fab fa-html5 text-danger border border-dark p-2 rounded-pill"></i></h3>
+                                                                    <h3><i class="fab fa-css3-alt border border-dark p-2 rounded-pill text-primary"></i></h3>
+                                                                    <h3><i class="fab fa-js border border-dark p-2 rounded-pill text-warning"></i></h3>
+                                                                    <h3><i class="fab fa-bootstrap border border-dark p-2 rounded-pill text-primary"></i></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 mb-0 text-right ">
+                                                                <label for="card5" class="btn px-4 btn-outline-info return" aria-hidden="true">
+                                                                    <i class="fas fa-arrow-left"></i>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="wrapper">
+                                    <div class="card">
+                                        <input type="checkbox" id="card6" class="more">
+                                        <div class="content">
+                                            <div class="front" style="background-image: url('./Photos/project-1.jpg')">
+                                                <div class="inner">
+                                                    <h3 class="text-center">Fred Flintston</h3>
+                                                    <div class="rating">
+                                                        
+                                                    </div>
+                                                    <label for="card6" class="button" aria-hidden="true">
+                                                        Details
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="back">
+                                                <div class="inner">
+                                                    <div class="container m-0 p-0">
+                                                        <div class="row">
+                                                            <div class="col-12 my-3  text-center">
+                                                                <div class="description">
+                                                                    <p class="text-center">  This Project Entittled Fred Flintston a fictional Character. The Flintstons were the Modern Stone Age family.</p>                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 my-1 text-center d-flex justify-content-around">
+                                                                <a class="btn btn-outline-info" href="https://github.com/Tripathikritika/masai-sprint-1"  target="_blank" ><i class="fab fa-github"></i>Git Hub</i></a>
+                                                                <a class="btn btn-outline-info" href="https://tripathikritika.github.io/masai-sprint-1" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i>Live Demo</i></a>
+                                                            </div>
+                                                            <div class="col-12 my-3 text-center">
+                                                                <div style=" width:100%" class="d-flex m-0 justify-content-around">
+                                                                    <h3><i class="fab fa-html5 text-danger border border-dark p-2 rounded-pill"></i></h3>
+                                                                    <h3><i class="fab fa-css3-alt border border-dark p-2 rounded-pill text-primary"></i></h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12 mb-0 text-right ">
+                                                                <label for="card6" class="btn px-4 btn-outline-info return" aria-hidden="true">
+                                                                    <i class="fas fa-arrow-left"></i>
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card h-100">
-                            <img src="./Photos/FinalProject.png" class="card-img-top img-fluid card-img" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Refresh-Menu</h5>
-                            <p class="card-text  text-justify">
-                                It is a end-to-end clone of Freshmenu integrated payment gateway, Oauth, Mapbox, OTP. Freshmenu is the go-to neighbourhood food delivery option you can turn to when you’re famished.Meals are crafted with the finest ingredients including farm fresh vegetables and meats.Every order is delivered in the shortest possible time frame, right to your doorstep
-                            </p>
-                            <div class="row text-center">
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="https://github.com/Tripathikritika/Refresh-Menu" target="_blank" ><i class="fab fa-github"></i></a>
-                                </div>
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="#" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i></a>
-                                </div>
-                            </div>
-                            <div class = "cardIcon d-flex">
-                                <h1><i class="fab fa-html5 text-danger"></i></h1>
-                                <h1><i class="fab fa-css3-alt text-primary"></i></h1>
-                                <h1><i class="fab fa-js text-warning"></i></h1>
-                                <h1><i class="fab fa-react text-info"></i></h1>
-                                <h1><i class="fab fa-node-js text-success"></i></h1>
-                                
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card h-100">
-                            <img src="./Photos/Project-3.jpg" class="card-img-top pb-5 mt-2 img-fluid card-img" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">The Lord of the Ring</h5>
-                            <p class="card-text text-justify">
-                                Designed and Implemented a JS API Project where the API was Lord of the Rings API​. 
-                                The LOTR Api gives all the in depth information about the Lord of the Rings series.
-                            </p>
-                            </div>
-                            <div class="row text-center">
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="https://github.com/Tripathikritika/masai-sprint-3" target="_blank" ><i class="fab fa-github"></i></a>
-                                </div>
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="https://tripathikritika.github.io/masai-sprint-3" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i></a>
-                                </div>
-                            </div>
-                            <div class = "cardIcon">
-                                <h1><i class="fab fa-html5 text-danger"></i></h1>
-                                <h1><i class="fab fa-css3-alt text-primary"></i></h1>
-                                <h1><i class="fab fa-bootstrap text-primary"></i></h1>
-                                <h1><i class="fab fa-js text-warning"></i></h1>
-                            </div>
-                
-                           
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card h-100">
-                            <img src="./Photos/project-5.jpg" class="card-img-top img-fluid pb-5 mt-2 card-img" alt="...">
-                            <div class="card-body ">
-                            <h5 class="card-title">Ricky And Morty</h5>
-                            <p class="card-text">This Project is show case about an animated series on adult-swim about the infinite adventures of Rick and Morty which lets you
-                                search various characters and episodes of about the show using the lord of the ring Api </p>
-                          </div>
-                          <div class="row text-center">
-                              <div class="col-6">
-                                  <a class="btn btn-lg btn-outline-info rounded-circle" href="https://github.com/Tripathikritika/masai-sprint-5" target="_blank" ><i class="fab fa-github"></i></a>
-                              </div>
-                              <div class="col-6">
-                                  <a class="btn btn-lg btn-outline-info rounded-circle" href="https://tripathikritika.github.io/masai-sprint-5/" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i></a>
-                              </div>
-                          </div>
-                          <div class = "cardIcon">
-                              <h1><i class="fab fa-html5 text-danger"></i></h1>
-                              <h1><i class="fab fa-css3-alt text-primary"></i></h1>
-                              <h1><i class="fab fa-bootstrap text-primary"></i></h1>
-                              <h1><i class="fab fa-js text-warning"></i></h1>
-                             
-                          </div>
-                
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mt-3">
-                        <div class="card h-100">
-                            <img src="./Photos/hackathon.jpg" class="card-img-top img-fluid card-img" alt="Hackathon ">
-                            <div class="card-body">
-                            <h5 class="card-title">The Decipher</h5>
-                            <p class="card-text  text-justify">
-                                This App generates quotation documents of various events using RevvSales API & mail's the quotation to the inbox.
-                                This was a collaborative Hackathon Project made in 48 hours Using RevvSales API which  generates quotation documents of various events includes
-                                Wedding Events, Fashion Show Events, Musical Event. The quotation made was using RevvSales documents.
-                            </p>
-                            <div class="row text-center">
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="https://github.com/masaianshubham/Hackathon/tree/master" target="_blank"><i class="fab fa-github"></i></a>
-                                </div>
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="https://masaianshubham.github.io/Hackathon/ " target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i></a>
-                                </div>
-                            </div>
-                            <div class = "cardIcon">
-                                <h1><i class="fab fa-html5 text-danger"></i></h1>
-                                <h1><i class="fab fa-css3-alt text-primary"></i></h1>
-                                <h1><i class="fab fa-bootstrap text-primary"></i></h1>
-                                <h1><i class="fab fa-js text-warning"></i></h1>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mt-3">
-                        <div class="card h-100">
-                            <img src="./Photos/Vogue.png" class="card-img-top img-fluid card-img" alt="Vogue">
-                            <div class="card-body">
-                            <h5 class="card-title">Vogue Website</h5>
-                            <p class="card-text  text-justify mb-2 pb-5">
-                                A vogue fashion website for beauty products using Private Routing. It lets user add item into cart only when you are logged in.
-                              </p>
-                            <div class="row text-center mt-5">
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="https://github.com/Tripathikritika/Vogue" target="_blank" ><i class="fab fa-github"></i></a>
-                                </div>
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="https://vogue.tripathikritika.vercel.app/" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i></a>
-                                </div>
-                            </div>
-                            <div class = "cardIcon">
-                                <h1><i class="fab fa-html5 text-danger"></i></h1>
-                                <h1><i class="fab fa-css3-alt text-primary"></i></h1>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 mt-3">
-                        <div class="card h-100">
-                            <img src="./Photos/Project-1.jpg" class="card-img-top img-fluid card-img" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Fred Flintston</h5>
-                            <p class="card-text  text-justify">
-                                This Project Entittled Fred Flintston a fictional Character. The Flintstons were the Modern Stone Age family.
-                                Residing in bedrock, Fred Flintstone worked an unsatisfying quarry job, But returned home to lovely wife Wilma and eventually daughter Pebbles.
-                              </p>
-                            <div class="row text-center">
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="https://github.com/Tripathikritika/masai-sprint-1" target="_blank" ><i class="fab fa-github"></i></a>
-                                </div>
-                                <div class="col-6">
-                                    <a class="btn btn-lg btn-outline-info rounded-circle" href="https://tripathikritika.github.io/masai-sprint-1/" target="_blank" data-tooltip="View Online" ><i class="fas fa-external-link-alt"></i></a>
-                                </div>
-                            </div>
-                            <div class = "cardIcon">
-                                <h1><i class="fab fa-html5 text-danger"></i></h1>
-                                <h1><i class="fab fa-css3-alt text-primary"></i></h1>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                
+            </div>
+            
             </div>
             <!-- Circles -->
-            <hr>
-            <div class="stats mt-0" >
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div>
-                            <p class="text-center h1 font-italic font-weight-normal">STATS</p>
+                        <hr>
+                    </div>
+                    <div class=" stats mt-0 col-12">
+                        <p class="text-center h1 font-weight-normal">STATS</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="circleOfHours">
+                            <div class="m-4">
+                                <div class="circleDiv justify-content-center d-flex align-items-center" >
+                                    <div class="text-center m-3 font-weight-normal" >
+                                        <h5 class="d-flex align-self-center flex-column">1200+  <small class="h6 text-muted mt-2">Hours of coding</small></h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-4">
+                                <div class="circleDiv d-flex align-items-center justify-content-center">
+                                    <h5 class="d-flex align-items-center flex-column"> 140+ <small class="h6 text-muted mt-2"> Data Structure</small></h5>
+                                </div>
+                            </div>
+                            <div class="m-4">
+                                <div class="circleDiv d-flex align-items-center justify-content-center">
+                                    <h5 class="d-flex align-items-center flex-column">260 <small class="h6 text-muted mt-2">Git Commit</small></h5>
+                                </div>
+                            </div>
+                            <div class="m-4">
+                                <div class="circleDiv d-flex align-items-center justify-content-center">
+                                    <h5 class="d-flex align-items-center flex-column">10+<small class="h6 text-muted mt-2">Projects</small></h5>
+                                </div>
+                            </div>
+                            <div class="m-4">
+                                <div class="circleDiv justify-content-center d-flex align-items-center">
+                                    <div class="text-center m-3 font-weight-normal" >
+                                        <h5 class="d-flex align-self-center flex-column">100+ <small class="h6 text-muted mt-2">Hours of Soft Skills</small></h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="circleOfHours">
-                    <div class="m-4">
-                        <div class="circleDiv justify-content-center align-items-center" >
-                            <div class="text-center m-3 font-weight-normal" >
-                                <h5 class="numberOfHours">1200+ Hours of</h5>
-                            </div>
-                        </div>
-                        <h5>Full stack coding</h5>
+            </div>    
+            <!-- Commit -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <hr>
                     </div>
-                    <div class="m-4">
-                        <div class="circleDiv justify-content-center align-items-center ">
-                            <div class="text-center m-3 font-weight-normal" >
-                                <h5 class="numberOfHours ml-4 mt-2"> 140+ </h5>
-                            </div>
-                        </div>
-                        <h5 class="text-center">Data Structure </h5>
+                    <div class=" stats mt-0 col-12">
+                        <p class="text-center h1 font-weight-normal">GIT COMMIT</p>
                     </div>
-                    <div class="m-4">
-                        <div class="circleDiv  justify-content-center align-items-center ">
-                            <div class="text-center m-3 font-weight-normal" >
-                                <h5 class="numberCommitHours">260+ </h5>
-                            </div>
+                    <div class="col-12">
+                        <div class="circleOfGithub mb-5" >
+                            <div class="calendar pt-3 px-5"></div>
                         </div>
-                        <h5 class="text-center">Git Commit</h5>
-                    </div>
-                    <div class="m-4">
-                        <div class="circleDiv  justify-content-center align-items-center ">
-                            <div class="text-center m-3 font-weight-normal" >
-                                <h5 class="numberCommitHours">10+</h5>
-                            </div>
-                        </div>
-                        <h5 class="text-center">Projects</h5>
-                    </div>
-                    <div class="m-4">
-                        <div class="circleDiv  justify-content-center align-items-center ">
-                            <div class="text-center m-3 font-weight-normal" >
-                                <h5 class="numberOfHours"> 100+ Hours of</h5>
-                            </div>
-                        </div>
-                        <h5 class="text-center">Soft Skills</h5>
                     </div>
                 </div>
-            </div>        
-            <div class="circleOfGithub mb-5 pt-2 px-5">
-                <div class="calendar"></div>
             </div>
+            
     </div>
     <script>
         GitHubCalendar(".calendar", "Tripathikritika");
