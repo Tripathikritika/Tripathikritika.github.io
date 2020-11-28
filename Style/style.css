@@ -1,3 +1,6 @@
+body {
+  background-color: #e8eaf6;
+}
 .profile {
   position: relative;
   top: -120px;
@@ -18,6 +21,14 @@
     margin: 120px auto;
     height: 700px;
   }
+}
+.projectColors {
+  border: 1px solid #4e342e;
+  color: #4e342e;
+  outline: none;
+}
+.profColor {
+  color: #4e342e;
 }
 
 .bioDiv {
@@ -57,6 +68,8 @@
 .circleDiv {
   border: 3px solid;
   border-color: #a1887f;
+  color: #4e342e;
+  font-weight: bold;
   width: 150px;
   height: 150px;
   border-radius: 6%;
@@ -110,9 +123,10 @@ img {
 }
 .techTags {
   text-align: center;
-  font-weight: normal;
-  font-size: 15px;
-  color: #2b2929;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 0.1px;
+  color: #4e342e;
 }
 .stats {
   display: flex;
@@ -139,12 +153,6 @@ img {
 .circleOfGithub {
   margin: 0px auto;
 }
-/* .profiDiv {
-  border-radius: 16px;
-  background: #dde1e4;
-  box-shadow: 5px 5px 10px #585a5b, -5px -5px 10px #ffffff;
-  width: 20%;
-} */
 .wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -246,7 +254,7 @@ img {
   position: relative;
   display: flex;
   align-items: center;
-  color: #355cc9;
+  color: #3e2723;
   grid-row: 3;
 }
 .back .info:not(:first-of-type):before {
@@ -282,17 +290,17 @@ img {
 .back .description {
   grid-row: 5;
   grid-column: -1;
-  font-size: 0.86em;
+  font-size: 0.96em;
   border-radius: 5px;
   font-weight: 600;
   line-height: 1.4em;
   overflow: auto;
-  color: #355cc9;
+  color: #3e2723;
 }
 .back .location,
 .back .price {
   font-weight: 600;
-  color: #355cc9;
+  color: #3e2723;
   grid-row: 1;
   font-size: 0.86em;
 }
@@ -333,17 +341,17 @@ img {
   background-color: #fff;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
   text-shadow: none;
-  color: #355cc9;
+  color: #4e342e;
 }
 .button.return {
   line-height: 3em;
-  color: #355cc9;
-  border-color: #355cc9;
+  color: #4e342e;
+  border-color: #4e342e;
   text-shadow: none;
 }
 .button.return:hover {
-  background-color: #355cc9;
-  color: #fff;
+  background-color: #4e342e;
+  color: #4e342e;
   box-shadow: none;
 }
 ::-webkit-scrollbar {
@@ -353,8 +361,8 @@ img {
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #859ddf;
+  background: gray;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #355cc9;
+  background: gray;
 }
