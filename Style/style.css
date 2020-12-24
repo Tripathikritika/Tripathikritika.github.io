@@ -96,10 +96,6 @@ img {
 .container {
   padding: 5px;
 }
-.horizontalLine {
-  width: 35%;
-  font: bold;
-}
 .completedDiv {
   border-radius: 5px;
 }
